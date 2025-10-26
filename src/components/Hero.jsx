@@ -16,6 +16,9 @@ export default function Hero() {
       >
         Explore Courses
       </a>
+      <p className="text-lg mb-2">
+        Ready to upskill? <a href="mailto:info@spedu.in" className="underline">Contact Us</a>
+      </p>
     </section>
   );
 }
