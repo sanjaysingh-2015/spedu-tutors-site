@@ -1,0 +1,21 @@
+// src/components/Hero.jsx
+import React from "react";
+import logo from "../assets/logo.png";
+
+export default function Hero() {
+  return (
+    <section className="bg-gradient-to-r from-blue-400 to-indigo-600 text-gray-900 min-h-screen flex flex-col justify-center items-center text-center px-4">
+      <img src={logo} alt="spEdu Tutors Logo" className="w-32 mb-4 rounded-full shadow-lg" />
+      <h1 className="text-5xl font-bold mb-3">spEdu Tutors</h1>
+      <p className="text-xl mb-6">
+        Empowering Learners | Enabling Tutors | Enriching Futures
+      </p>
+      <a
+        href="#courses"
+        className="bg-white text-blue-700 px-6 py-3 rounded-full font-semibold hover:bg-blue-100 transition"
+      >
+        Explore Courses
+      </a>
+    </section>
+  );
+}
