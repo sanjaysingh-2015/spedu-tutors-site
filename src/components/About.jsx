@@ -5,7 +5,7 @@ const About = () => {
     <section className="min-h-screen bg-gray-50 py-16 px-6">
       <div className="max-w-5xl mx-auto">
         <h1 className="text-4xl font-bold text-center text-gray-900 mb-8">
-          Brand Story		 
+          The Story
         </h1>
 		<h2  className="text-2xl font-bold text-center text-gray-900 mb-8">
 		  “25 Years of Building, Leading, and Teaching Technology That Works”
