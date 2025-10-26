@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "../assets/logo.png";
+import { Link } from "react-router-dom";
 
 export default function JavaMasteryCourse() {
   return (
@@ -130,6 +131,12 @@ export default function JavaMasteryCourse() {
         </a>
       </div>
 
+      <Link
+        to="/"
+        className="fixed bottom-6 right-6 bg-blue-600 hover:bg-blue-700 text-white font-medium px-4 py-2 rounded-full shadow-lg transition-transform transform hover:scale-105"
+      >
+        ← Back to Courses
+      </Link>
     </section>
   );
 }
