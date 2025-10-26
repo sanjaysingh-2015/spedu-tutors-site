@@ -12,12 +12,15 @@ export default function Hero() {
       </p>
       <a
         href="#courses"
-        className="bg-white text-blue-700 px-6 py-3 rounded-full font-semibold hover:bg-blue-100 transition"
+        className="mb-4 bg-white text-blue-700 px-6 py-3 rounded-full font-semibold hover:bg-blue-100 transition"
       >
         Explore Courses
       </a>
-      <p className="text-lg mb-2">
-        Ready to upskill? <a href="mailto:info@spedu.in" className="underline">Contact Us</a>
+      <p className="text-lg mb-2 text-white font-semibold">
+        Ready to upskill?{" "}
+        <a href="mailto:info@spedu.in" className="underline font-bold text-white hover:text-blue-200">
+          Contact Us
+        </a>
       </p>
     </section>
   );
