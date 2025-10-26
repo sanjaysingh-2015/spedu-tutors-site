@@ -1,5 +1,6 @@
 // src/components/Hero.jsx
 import React from "react";
+import { Link } from "react-router-dom";
 import logo from "../assets/logo.png";
 
 export default function Hero() {
@@ -18,9 +19,12 @@ export default function Hero() {
       </a>
       <p className="text-lg mb-2 text-white font-semibold">
         Ready to upskill?{" "}
-        <a href="mailto:info@spedu.in" className="underline font-bold text-white hover:text-blue-200">
-          Contact Us
-        </a>
+        <Link
+          to="/courses/contact-us"
+          className="underline font-bold text-white hover:text-blue-200 hover:underline"
+        >
+          Contact us
+        </Link>
       </p>
     </section>
   );

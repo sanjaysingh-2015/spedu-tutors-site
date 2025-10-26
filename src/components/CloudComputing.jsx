@@ -6,7 +6,7 @@ export default function CloudComputing() {
   return (
     <section className="bg-gradient-to-b from-sky-50 to-white text-gray-800 py-20 px-6">
       <div className="max-w-5xl mx-auto text-center mb-12">
-        <img src={logo} alt="spEdu Tutors Logo" className="mx-auto h-20 mb-6" />
+        <img src={logo} alt="spEdu Tutors Logo" className="mx-auto h-20 mb-6 rounded-full" />
         <h1 className="text-4xl font-bold text-blue-700 mb-4">
           ☁️ Cloud Computing
         </h1>
@@ -14,7 +14,7 @@ export default function CloudComputing() {
           AWS, Azure & GCP — Master cloud deployment, architecture, and scalability through real-world projects.
         </p>
         <a
-          href="#enroll"
+          href="https://spedu-student-ui-436077983835.asia-south2.run.app"
           className="inline-block bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-8 rounded-xl shadow-md transition-transform transform hover:scale-105"
         >
           Enroll Now
@@ -104,7 +104,7 @@ export default function CloudComputing() {
       <div id="enroll" className="max-w-5xl mx-auto mt-16 text-center">
         <h3 className="text-2xl font-bold text-blue-800 mb-6">Ready to Master Cloud Computing?</h3>
         <a
-          href="/enroll/java-mastery"
+          href="https://spedu-student-ui-436077983835.asia-south2.run.app"
           className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-4 px-10 rounded-xl shadow-md transition-transform transform hover:scale-105"
         >
           Start Learning Now

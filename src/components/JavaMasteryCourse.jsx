@@ -7,7 +7,7 @@ export default function JavaMasteryCourse() {
     <section className="bg-gradient-to-b from-slate-50 to-blue-50 text-gray-800 py-16 px-6">
       {/* Header Section */}
       <div className="max-w-5xl mx-auto text-center">
-        <img src={logo} alt="spEdu Tutors Logo" className="mx-auto h-20 mb-6" />
+        <img src={logo} alt="spEdu Tutors Logo" className="mx-auto h-20 mb-6 rounded-full" />
         <div className="text-center mb-12">
           <h1 className="text-4xl font-bold text-indigo-700 mb-4">
             Java Mastery: Core to Advanced Java with Real-World Projects
@@ -16,7 +16,7 @@ export default function JavaMasteryCourse() {
             Learn Java from fundamentals to enterprise-grade applications — guided by 25+ years of real-world IT experience.
           </p>
           <a
-            href="#enroll"
+            href="https://spedu-student-ui-436077983835.asia-south2.run.app"
             className="inline-block bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-8 rounded-xl shadow-md transition-transform transform hover:scale-105"
           >
             Enroll Now
@@ -124,7 +124,7 @@ export default function JavaMasteryCourse() {
       <div id="enroll" className="max-w-5xl mx-auto mt-16 text-center">
         <h3 className="text-2xl font-bold text-blue-800 mb-6">Ready to Master Java?</h3>
         <a
-          href="/enroll/java-mastery"
+          href="https://spedu-student-ui-436077983835.asia-south2.run.app"
           className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-4 px-10 rounded-xl shadow-md transition-transform transform hover:scale-105"
         >
           Start Learning Now

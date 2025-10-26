@@ -3,6 +3,7 @@ import About from "./components/About";
 import WhyChooseUs from "./components/WhyChooseUs";
 import Courses from "./components/Courses";
 import Footer from "./components/Footer";
+import ContactUs from "./components/ContactUs";
 
 import JavaMasteryCourse from "./components/JavaMasteryCourse";
 import SpringBootCourse from "./components/SpringBootCourse";
@@ -34,6 +35,7 @@ function App() {
         <Route path="/courses/spring-boot" element={<SpringBootCourse />} />
         <Route path="/courses/databases" element={<DatabaseCourse />} />
         <Route path="/courses/cloud-computing" element={<CloudComputing />} />
+        <Route path="/courses/contact-us" element={<ContactUs />} />
       </Routes>
     </div>
   );
