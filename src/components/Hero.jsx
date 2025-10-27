@@ -17,6 +17,23 @@ export default function Hero() {
       >
         Explore Courses
       </a>
+
+      {/* Portal Links */}
+      <div className="absolute top-6 right-6 flex gap-4">
+        <a
+          href="https://spedu-student-ui-436077983835.asia-south2.run.app/"
+          className="bg-green-500 text-white px-5 py-2 rounded-full font-semibold hover:bg-green-600 transition"
+        >
+          🎓 Student
+        </a>
+        <a
+          href="https://spedu-tutor-ui-436077983835.asia-south2.run.app/"
+          className="bg-blue-700 text-white px-5 py-2 rounded-full font-semibold hover:bg-blue-800 transition"
+        >
+          👨‍🏫 Tutor
+        </a>
+      </div>
+
       <p className="text-lg mb-2 text-white font-semibold">
         Ready to upskill?{" "}
         <Link
