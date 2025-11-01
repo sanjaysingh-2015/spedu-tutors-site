@@ -21,13 +21,13 @@ export default function Hero() {
       {/* Portal Links */}
       <div className="absolute top-6 right-6 flex gap-4">
         <a
-          href="https://spedu-student-ui-436077983835.asia-south2.run.app/"
+          href="https://student.speducation.co.in/"
           className="bg-green-500 text-white px-5 py-2 rounded-full font-semibold hover:bg-green-600 transition"
         >
           🎓 Student
         </a>
         <a
-          href="https://spedu-tutor-ui-436077983835.asia-south2.run.app/"
+          href="https://tutor.speducation.co.in"
           className="bg-blue-700 text-white px-5 py-2 rounded-full font-semibold hover:bg-blue-800 transition"
         >
           👨‍🏫 Tutor
