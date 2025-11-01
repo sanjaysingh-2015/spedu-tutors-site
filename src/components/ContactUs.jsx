@@ -25,10 +25,10 @@ export default function ContactUs() {
               <MdEmail className="text-2xl text-blue-600" /> Email
             </h3>
             <a
-              href="mailto:info@spedu.in"
+              href="mailto:sanjay.s@speducation.co.in"
               className="text-gray-700 hover:text-blue-600 transition font-medium"
             >
-              info@spedu.in
+              sanjay.s@speducation.co.in
             </a>
           </div>
 
