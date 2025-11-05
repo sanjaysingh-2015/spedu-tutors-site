@@ -2,8 +2,10 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const courses = [
+  { title: "Career Guidance", desc: "Tailored career coaching for final-year students and job seekers", path: "/courses/career-guidance" },
   { title: "Java Mastery", desc: "Core to Advanced Java with real-world projects", path: "/courses/java-mastery" },
   { title: "Spring Boot & Microservices", desc: "Build scalable backends with hands-on APIs", path: "/courses/spring-boot" },
+  { title: "ReactJs Mastery", desc: "Build modern, high-performance web apps using React", path: "/courses/react-mastery" },
   { title: "Databases", desc: "Master SQL, performance tuning, and design in Oracle/MySQL", path: "/courses/databases" },
   { title: "Cloud Computing", desc: "AWS, Azure & GCP practical deployment guidance", path: "/courses/cloud-computing" },
 ];

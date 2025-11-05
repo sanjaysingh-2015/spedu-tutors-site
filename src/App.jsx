@@ -9,6 +9,8 @@ import JavaMasteryCourse from "./components/JavaMasteryCourse";
 import SpringBootCourse from "./components/SpringBootCourse";
 import DatabaseCourse from "./components/DatabaseCourse";
 import CloudComputing from "./components/CloudComputing";
+import CareerGuidance from "./components/CareerGuidance";
+import ReactJsMastery from "./components/ReactJsMastery";
 
 import { Routes, Route } from "react-router-dom";
 
@@ -31,11 +33,13 @@ function App() {
         />
 
         {/* Individual Course Pages */}
+        <Route path="/courses/career-guidance" element={<CareerGuidance />} />
         <Route path="/courses/java-mastery" element={<JavaMasteryCourse />} />
         <Route path="/courses/spring-boot" element={<SpringBootCourse />} />
         <Route path="/courses/databases" element={<DatabaseCourse />} />
         <Route path="/courses/cloud-computing" element={<CloudComputing />} />
         <Route path="/courses/contact-us" element={<ContactUs />} />
+        <Route path="/courses/react-mastery" element={<ReactJsMastery />} />
       </Routes>
     </div>
   );
